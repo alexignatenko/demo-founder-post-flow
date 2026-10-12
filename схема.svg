@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1780" viewBox="0 0 1200 1780" role="img" aria-labelledby="title desc">
+  <title id="title">Как flow выбрал один русский пост — реальный прогон 8 октября 2026 года</title>
+  <desc id="desc">Светлая блок-схема: 19 историй и 8 джобов дали 152 пары; после фильтров осталось 5 идей. Для первой идеи написали три версии поста, но ни одна не прошла все пороги.</desc>
+  <defs>
+    <pattern id="paper" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M0 47.5H48" fill="none" stroke="#e8edf0" stroke-width="1"/></pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="9" markerHeight="9" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#566870" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></marker>
+    <style>
+      text{font-family:Arial,Helvetica,sans-serif;fill:#26343a}
+      .title{font-size:37px;font-weight:700}
+      .sub{font-size:20px;fill:#5b6a70}
+      .head{font-size:25px;font-weight:700}
+      .body{font-size:21px}
+      .small{font-size:17px;fill:#536168}
+      .number{font-size:24px;font-weight:700}
+      .line{fill:none;stroke:#66777c;stroke-width:2.4;marker-end:url(#arrow)}
+      .branch{fill:none;stroke:#819096;stroke-width:2.2}
+      .node{fill:#ffffff;stroke:#c9d6dc;stroke-width:2}
+      .mint{fill:#eaf4ec;stroke:#b5d0bc;stroke-width:2}
+      .blue{fill:#edf5fb;stroke:#b8cedd;stroke-width:2}
+      .gold{fill:#fff0cd;stroke:#d7b765;stroke-width:2.4}
+      .rose{fill:#fff0ed;stroke:#deb9b1;stroke-width:2}
+    </style>
+  </defs>
+  <rect width="1200" height="1780" fill="#fcfcf8"/>
+  <rect width="1200" height="1780" fill="url(#paper)"/>
+  <text x="70" y="76" class="title">Как выбрали один русский пост</text>
+  <text x="70" y="112" class="sub">Реальный прогон · 8 октября 2026 · оценки из сохранённого лога</text>
+
+  <rect x="70" y="153" width="500" height="101" rx="17" class="blue"/>
+  <text x="96" y="196" class="head">19 историй</text>
+  <text x="96" y="227" class="small">карточки из реальных разговоров</text>
+  <rect x="630" y="153" width="500" height="101" rx="17" class="blue"/>
+  <text x="656" y="196" class="head">8 джобов основателей</text>
+  <text x="656" y="227" class="small">боли, контекст и желаемые решения</text>
+  <path d="M320 254V281H600V310" class="line"/>
+  <path d="M880 254V281H600" class="branch"/>
+
+  <rect x="250" y="310" width="700" height="85" rx="17" class="node"/>
+  <text x="600" y="346" text-anchor="middle" class="head">152 пары «история × джоб»</text>
+  <text x="600" y="376" text-anchor="middle" class="small">Jev оценивает, насколько боль и ситуация совпадают</text>
+  <path d="M600 395V430" class="line"/>
+  <rect x="250" y="430" width="700" height="86" rx="17" class="mint"/>
+  <text x="600" y="466" text-anchor="middle" class="head">10 пар прошли по боли ≥ 0,60</text>
+  <text x="600" y="496" text-anchor="middle" class="small">взяли 8 пар · Jev пропустил 7 идей · 1 отклонил</text>
+  <path d="M600 516V552" class="line"/>
+  <rect x="250" y="552" width="700" height="77" rx="17" class="mint"/>
+  <text x="600" y="586" text-anchor="middle" class="head">5 лучших идей с разными историями</text>
+  <text x="600" y="614" text-anchor="middle" class="small">ниже — хук каждой отдельной идеи, а не варианты одного хука</text>
+
+  <path d="M600 629V657H52V1220" class="branch"/>
+  <path d="M52 727H70" class="line"/><path d="M52 843H70" class="line"/>
+  <path d="M52 959H70" class="line"/><path d="M52 1075H70" class="line"/>
+  <path d="M52 1191H70" class="line"/>
+
+  <rect x="70" y="677" width="1060" height="101" rx="15" class="gold"/>
+  <text x="96" y="712" class="number">① Семь лет жгли бюджет на всех каналах.</text>
+  <text x="96" y="743" class="body">Какой из них дал хоть одну покупку?</text>
+  <text x="1110" y="711" text-anchor="end" class="small">идея 0,828</text>
+  <text x="1110" y="740" text-anchor="end" class="small">хук 0,838</text>
+
+  <rect x="70" y="793" width="1060" height="101" rx="15" class="node"/>
+  <text x="96" y="828" class="number">② Депозиты сошлись, а счётчики нет.</text>
+  <text x="96" y="859" class="body">Вы заказываете переделку трекинга?</text>
+  <text x="1110" y="827" text-anchor="end" class="small">идея 0,818</text>
+  <text x="1110" y="856" text-anchor="end" class="small">хук 0,798</text>
+
+  <rect x="70" y="909" width="1060" height="101" rx="15" class="node"/>
+  <text x="96" y="944" class="number">③ Цели не настроены, таргетолог смотрит на пиксель.</text>
+  <text x="96" y="975" class="body">Вы масштабируете по его слову?</text>
+  <text x="1110" y="943" text-anchor="end" class="small">идея 0,796</text>
+  <text x="1110" y="972" text-anchor="end" class="small">хук 0,861</text>
+
+  <rect x="70" y="1025" width="1060" height="101" rx="15" class="node"/>
+  <text x="96" y="1060" class="number">④ Кабинет видит в 10 раз меньше продаж.</text>
+  <text x="96" y="1091" class="body">Вы платите за его учёбу?</text>
+  <text x="1110" y="1059" text-anchor="end" class="small">идея 0,777</text>
+  <text x="1110" y="1088" text-anchor="end" class="small">хук 0,844</text>
+
+  <rect x="70" y="1141" width="1060" height="101" rx="15" class="node"/>
+  <text x="96" y="1176" class="number">⑤ Оплаты в аналитике и банке разные.</text>
+  <text x="96" y="1207" class="body">Какой отчёт вы покажете инвесторам?</text>
+  <text x="1110" y="1175" text-anchor="end" class="small">идея 0,767</text>
+  <text x="1110" y="1204" text-anchor="end" class="small">хук 0,783</text>
+
+  <path d="M1130 727H1162V1300H900" class="line"/>
+  <rect x="300" y="1280" width="600" height="90" rx="17" class="gold"/>
+  <text x="600" y="1318" text-anchor="middle" class="head">Для первого поста взяли идею ①</text>
+  <text x="600" y="1349" text-anchor="middle" class="small">лидер по общей оценке идеи; хук ③ оценён выше</text>
+
+  <path d="M600 1370V1400H218V1422" class="line"/>
+  <rect x="70" y="1422" width="298" height="92" rx="16" class="rose"/>
+  <text x="92" y="1461" class="head">Версия поста 1</text>
+  <text x="92" y="1491" class="small">0,102 · не прошла</text>
+  <path d="M368 1468H448" class="line"/>
+  <rect x="448" y="1422" width="298" height="92" rx="16" class="rose"/>
+  <text x="470" y="1461" class="head">Версия поста 2</text>
+  <text x="470" y="1491" class="small">0,255 · не прошла</text>
+  <path d="M746 1468H826" class="line"/>
+  <rect x="826" y="1422" width="304" height="92" rx="16" class="rose"/>
+  <text x="848" y="1461" class="head">Версия поста 3</text>
+  <text x="848" y="1491" class="small">0,267 · не прошла</text>
+  <path d="M978 1514V1558H600V1583" class="line"/>
+  <rect x="250" y="1583" width="700" height="99" rx="17" class="blue"/>
+  <text x="600" y="1622" text-anchor="middle" class="head">Лучшая из трёх → финальная правка</text>
+  <text x="600" y="1654" text-anchor="middle" class="small">После правки Jev не ставит новый score</text>
+  <text x="70" y="1728" class="small">Промежуточные варианты хуков внутри каждой идеи в логе не сохранены.</text>
+</svg>
